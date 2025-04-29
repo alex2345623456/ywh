@@ -1,0 +1,18 @@
+POST /mnsnp/v1 HTTP/2
+Host: svc-users.api-mnsnp.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.$$$
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 171
+Referer: https://webapp.monisnap.com/
+X-Channel: MONISNAP
+Origin: https://webapp.monisnap.com
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Authorization: PAYLOAD2
+Te: trailers
+~~~
+{"email":"PAYLOAD","country":"GB","provider":"email","hasAcceptedTc":true,"hasConsentMarketing":true,"signupCashoutMethod":"ECOSYSTEM","locale":"en-GB"}
