@@ -1,0 +1,46 @@
+POST /signup HTTP/2
+Host: api.paddle.com
+Content-Type: application/json
+Content-Length: 981
+
+{
+  "accepted_terms_of_service": true,
+  "annual_revenue": "$0 - $100K",
+  "signup_version": "extended",
+  "business": {
+    "address": {
+      "city": "a",
+      "country_code": "AL",
+      "first_line": "b",
+      "postal_code": "2131",
+      "second_line": "c"
+    },
+    "name": "ab",
+    "stock_ticker_symbol": "",
+    "type": "individual"
+  },
+  "user": {
+    "first_name": "INAPPROPRIATE VULGAR OR OFFENSIVE LANGUAGE",
+    "last_name": "b",
+    "marketing_consent": true,
+    "email": "PAYLOAD1",
+    "password": "Alex@2345678"
+  },
+  "website": "",
+  "product_categories": [
+    "digital_products_or_saas",
+    "human_services",
+    "financial_services",
+    "gambling_products"
+  ],
+  "utm": {
+    "ref": null,
+    "utm_campaign": null,
+    "utm_content": null,
+    "utm_medium": null,
+    "utm_source": null,
+    "utm_term": null
+  },
+  "authenticated_callout_shown": false,
+  "hubspot_visitor_id": null
+}
